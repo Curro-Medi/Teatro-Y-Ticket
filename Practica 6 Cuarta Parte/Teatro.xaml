@@ -1,0 +1,20 @@
+﻿<Window x:Class="Practica5.Teatro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica5"
+        mc:Ignorable="d"
+        Title="Teatro" Height="450" Width="800">
+    <Grid>
+        <Image Margin="-148,-67,-157.4,-14" Source="fondoteatro.jpg" Stretch="Fill"/>
+        <Grid x:Name="GridSala" Margin="57,61,366.6,99">
+            
+        </Grid>
+        <Button x:Name="Comprar" Content="Comprar" Background="Green" HorizontalAlignment="Left" Margin="492,131,0,0" VerticalAlignment="Top" Width="92" Height="28" Click="Comprar_Click"/>
+        <Button x:Name="Anularreserva" Content="Anular Reserva" Background="LightGoldenrodYellow" HorizontalAlignment="Left" Margin="652,234,0,0" VerticalAlignment="Top" Width="92" Height="28" Click="Anularreserva_Click"/>
+        <Button x:Name="Anularcompra" Content="Anular Compra" Background="DarkGreen" HorizontalAlignment="Left" Margin="652,131,0,0" VerticalAlignment="Top" Width="92" Height="28" Click="Anularcompra_Click"/>
+        <Button x:Name="Reservar" Content="Reservar" Background="Yellow" HorizontalAlignment="Left" Margin="492,234,0,0" VerticalAlignment="Top" Width="92" Height="28" Click="Reservar_Click"/>
+        <Button x:Name="Salir" Content="Cancelar y Salir" Background="White" HorizontalAlignment="Left" Margin="652,353,0,0" VerticalAlignment="Top" Width="92" Height="24" Click="Salir_Click"/>
+    </Grid>
+</Window>

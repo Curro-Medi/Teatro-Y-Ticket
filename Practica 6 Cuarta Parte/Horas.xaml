@@ -1,0 +1,29 @@
+﻿<Window x:Class="Practica5.Horas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica5"
+        mc:Ignorable="d"
+        Title="Horas" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-42,-0.4,-119" Source="horas.jpg" Stretch="Fill"/>
+        <Button x:Name="hora18_00" Content="18:00" HorizontalAlignment="Left" Margin="298,247,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora18_00_Click"/>
+        <Button x:Name="hora19_00" Content="19:00" HorizontalAlignment="Left" Margin="298,289,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora19_00_Click"/>
+        <Button x:Name="hora17_30" Content="17:30" HorizontalAlignment="Left" Margin="248,289,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora17_30_Click"/>
+        <Button x:Name="hora23_00" Content="23:00" HorizontalAlignment="Left" Margin="399,289,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora23_00_Click"/>
+        <Button x:Name="hora16_00" Content="16:00" HorizontalAlignment="Left" Margin="248,247,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora16_00_Click"/>
+        <Button x:Name="hora21_00" Content="21:00" HorizontalAlignment="Left" Margin="349,289,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora21_00_Click"/>
+        <Button x:Name="hora20_30" Content="20:30" HorizontalAlignment="Left" Margin="349,247,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora20_30_Click"/>
+        <Button x:Name="hora00_00" Content="00:00" HorizontalAlignment="Left" Margin="449,289,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora00_00_Click"/>
+        <Button x:Name="hora23_30" Content="23:30" HorizontalAlignment="Left" Margin="449,247,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora23_30_Click"/>
+        <Button x:Name="hora22_00" Content="22:00" HorizontalAlignment="Left" Margin="399,247,0,0" VerticalAlignment="Top" Width="45" Height="37" Background="White" Click="hora22_00_Click"/>
+        <Label Content="Fechas:" HorizontalAlignment="Left" Margin="248,81,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Horas:" HorizontalAlignment="Left" Margin="248,193,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="fecha29" Content="29/10/2020" HorizontalAlignment="Left" Margin="248,135,0,0" VerticalAlignment="Top" Width="74" Height="37" Background="White" Click="fecha29_Click" />
+        <Button x:Name="fecha31" Content="31/10/2020" HorizontalAlignment="Left" Margin="449,135,0,0" VerticalAlignment="Top" Width="74" Height="37" Background="White" Click="fecha31_Click" />
+        <Button x:Name="fecha30" Content="30/10/2020" HorizontalAlignment="Left" Margin="349,135,0,0" VerticalAlignment="Top" Width="74" Height="37" Background="White" Click="fecha30_Click" />
+        <Button Content="Siguiente" HorizontalAlignment="Left" Height="31" Margin="668,362,0,0" VerticalAlignment="Top" Width="93" Background="White" Click="Button_Click"/>
+
+    </Grid>
+</Window>

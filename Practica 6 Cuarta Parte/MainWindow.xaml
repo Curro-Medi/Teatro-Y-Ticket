@@ -1,0 +1,36 @@
+﻿<Window x:Class="Practica5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Image Margin="0,0,263.8,0" Source="unavisitainesperada.jpg" Stretch="Fill" Grid.ColumnSpan="2" x:Name="visitainesperada" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+        <Grid x:Name="gridfoto1" HorizontalAlignment="Center" Visibility="Hidden" Margin="10,145,9.8,10" Width="245">
+            <Button Content="Una noche borrascosa en el País de Gales,&#10;  Michael Starkwedder se pierde en la &#10;  carretera y su coche se embarranca. &#10;  Acude a la casa más cercana en busca de &#10;  ayuda, pero encuentra un hombre muerto &#10;  de un balazo, aún sentado en una silla de &#10;  ruedas. Laura, esposa del muerto, tiene una &#10;  pistola en mano y alega de que fue ella &#10;  quien le quitó la vida a su marido; pero hay &#10;  algo que lo intriga. &#10;  Reparto: &#10;   -Michael Starkwedder &#10;   -Miss Bennett &#10;   -Henry Angell &#10;   -Julian Farrar &#10;   -El inspector Thomas" Click="fotoroja_Click" Foreground="Black" Background="AliceBlue" x:Name="fotoroja" Visibility="Hidden" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Height="260" VerticalAlignment="Bottom" Margin="0,-74,0,0" Opacity=".7"/>
+        </Grid>
+
+        <Image Margin="0.2,0,264.4,0" Source="Lasoga.jpg" Stretch="Fill" Grid.Column="1" Grid.ColumnSpan="2" x:Name="rope" MouseEnter="Button_MouseEnter2" MouseLeave="Button_MouseLeave2"/>
+        <Grid x:Name="gridfoto2" HorizontalAlignment="Left" Visibility="Hidden" Margin="10.2,145,9.6,0" Width="245" Grid.Column="1" Height="265">
+            <Button Content="Una pareja de brillantes universitarios &#10;  estrangulan a un amigo de la facultad con el &#10;  fin de demostrar su superioridad, &#10;  estimulados por las teorías de su profesor &#10;  favorito. Esconden el cadáver en un arcón &#10;  sobre el que más adelante se servirá una &#10;  cena con los siguientes invitados: el padre &#10;  del muchacho muerto , la madre del muerto, &#10;  que no acude, y en su lugar asiste su tía,&#10;  la señora Atwater , su novia, Janet, el mejor &#10;  amigo de David, Kenneth y el profesor&#10; Rupert Cadell. &#10; Reparto: &#10;-James Stewart &#10;-John Dall &#10;-Farley Granger" Click="fotorope_Click" Opacity=".7" Foreground="Black" Background="AliceBlue" x:Name="fotorope" Visibility="Hidden" MouseEnter="Button_MouseEnter2" MouseLeave="Button_MouseLeave2"/>
+        </Grid>
+
+        <Image Margin="0.2,0,-1.4,0" Source="cuartovero.jpg" Stretch="Fill" Grid.Column="2" x:Name="vero" MouseEnter="Button_MouseEnter3" MouseLeave="Button_MouseLeave3"/>
+        <Grid x:Name="gridfoto3" HorizontalAlignment="Center" Visibility="Hidden" Margin="10.4,145,10.4,10" Width="244" Grid.Column="2">
+            <Button Content="Susan y Larry, una pareja que se acaba de &#10;  conocer, están pasando un día festivo en &#10;  un pueblo a las afueras de la gran ciudad. &#10;  Cuando un hombre y una mujer se les &#10;  acercan boquiabiertos por el gran parecido &#10;  de Susan con una chica llamada Verónica,&#10;  muerta muchos años atrás. Le piden a Susan &#10;  que los acompañe hasta la  antigua mansión &#10;  de los Brabissant y una vez allí encarne a &#10;  Verónica, para aliviar el sufrimiento del &#10;  último miembro vivo de la familia Brabissant &#10;  Reparto: &#10;   -Lucia Gil &#10;   -Antonio Albella &#10;   -Lara Dibildos &#10;   -Javier Pascual" Click="fotovero_Click" Foreground="Black" Background="AliceBlue" x:Name="fotovero" Visibility="Hidden" MouseEnter="Button_MouseEnter3" MouseLeave="Button_MouseLeave3" Height="264" VerticalAlignment="Top" Opacity=".7"/>
+        </Grid>
+
+
+    </Grid>
+</Window>
